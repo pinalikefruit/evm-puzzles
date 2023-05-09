@@ -1,4 +1,4 @@
-# Puzzle 1 
+# Puzzle 2 
 
 | Step| OPCODE| NAME|
 |-----|-----|-----|
