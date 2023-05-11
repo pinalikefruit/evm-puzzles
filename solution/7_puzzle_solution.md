@@ -27,18 +27,18 @@ Run Bytecode: [36600080373660006000F03B600114601357FD5B00](https://www.evm.codes
 ### Opcodes: explained in a simple way
 - New ones:
 
-**CALLDATACOPY**: Copy input data in current environment to memory, easy right? but them have 3 inputs :
+**CALLDATACOPY** : Copy input data in current environment to memory, easy right? but them have 3 inputs :
     - destOffset: byte offset in the memory where the result will be copied.
     - offset: byte offset in the calldata to copy.
     - size: byte size to copy.
 
 
-**CREATE**: Create a new account with associated code, also have three inputs:
+**CREATE** : Create a new account with associated code, also have three inputs:
     - value: value in wei to send to the new account.
     - offset: byte offset in the memory in bytes, the initialisation code for the new account.
     - size: byte size to copy (size of the initialisation code).
 
-**EXTCODESIZE**: Get size of an account’s code. *note:retrieves the size of the code of the newly created contract. However, at this point, the contract has not yet been deployed, so the result of this operation is 0.*
+**EXTCODESIZE** : Get size of an account’s code. *note:retrieves the size of the code of the newly created contract. However, at this point, the contract has not yet been deployed, so the result of this operation is 0.*
 
 
 
